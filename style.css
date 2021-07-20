@@ -1,0 +1,61 @@
+body{
+    background-color: darkolivegreen;
+}
+.formForMessage{
+    display: block;
+	margin: auto;
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 10%;
+
+}
+input{
+    background: lightgoldenrodyellow;
+    border: none;
+    height: 2rem;
+    width: 15rem;
+}
+select{
+    background: lightgoldenrodyellow;
+    font-family: 'Courier New', Courier, monospace;
+    height: 2.2rem;
+    width: 16rem;
+}
+
+textarea{
+    background: lightgoldenrodyellow;
+}
+.mobile-number{
+    margin-bottom: 1rem;
+}
+
+.country-code{
+    margin-bottom: 1rem
+}
+
+.message{
+    display: inline-grid;
+   
+}
+.message-text{
+    height: 10rem;
+    width: 28rem;
+    margin-bottom: 1rem;
+}
+
+input[type=submit]{
+    font-family: 'Courier New', Courier, monospace;
+    height: 2rem;
+    width: 10rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 2rem;
+
+    
+}
+input[type=submit]:hover{
+    background: white;
+}
